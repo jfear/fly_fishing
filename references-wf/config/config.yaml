@@ -1,0 +1,6 @@
+references_dir: '../references'
+
+# See the reference config files in the top level of the repo,
+# include/reference_configs, for inspiration for more species.
+include_references:
+  - 'references_config/Drosophila_melanogaster.yaml'
