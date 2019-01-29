@@ -1,0 +1,21 @@
+sampletable: 'config/sampletable.tsv'
+
+patterns: 'config/rnaseq_patterns.yaml'
+
+# Which key in the `references` dict below to use
+organism: 'dmel'
+
+# If not specified here, use the environment variable REFERENCES_DIR.
+references_dir: 'references_data'
+
+gtf:
+  tag: "r6-24"
+
+salmon:
+  tag: "r6-24_transcriptome"
+
+# See the reference config files in the top level of the repo,
+# include/reference_configs, for inspiration for more species.
+
+include_references:
+  - '../references-wf/reference_configs/Drosophila_melanogaster.yaml'

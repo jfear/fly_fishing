@@ -1,0 +1,3 @@
+fastq: 'data/rnaseq_samples/{sample}/{sample}_R{n}.fastq.gz'
+cutadapt: 'data/rnaseq_samples/{sample}/{sample}_R{n}.cutadapt.fastq.gz'
+salmon: 'data/rnaseq_samples/{sample}/{sample}.salmon/quant.sf'
